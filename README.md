@@ -1,6 +1,6 @@
-# Exceptional Continued for ReSharper
+# Exceptional Enhanced for ReSharper
 
-Exceptional Continued is a continuation of the [ReSharper](https://www.jetbrains.com/resharper/) extension [Exceptional](https://github.com/CSharpAnalyzers/ExceptionalReSharper).
+Exceptional Enhanced is a modified version of [ReSharper](https://www.jetbrains.com/resharper/) extension [Exceptional Continued](https://github.com/RobertWeinmeister/ExceptionalReSharper)) with added support for [ReSharper](https://www.jetbrains.com/resharper/) extension [Enhanced Tooltip](https://github.com/MrJul/ReSharper.EnhancedTooltip).
 
 Exceptional is an extension for ReSharper which analyzes thrown and documented C# exceptions and suggests improvements.
 
