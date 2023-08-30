@@ -3,10 +3,10 @@ using System.Linq;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
-using ReSharper.ExceptionalContinued.Analyzers;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Analyzers;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     internal abstract class BlockModelBase<T> : TreeElementModelBase<T>,
                                                 IBlockModel

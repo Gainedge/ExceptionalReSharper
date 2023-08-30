@@ -6,8 +6,8 @@
     <ProjectGuid>{4A9F937D-0046-4087-AFBF-780683BF233A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ReSharper.ExceptionalContinued</RootNamespace>
-    <AssemblyName>ReSharper.ExceptionalContinued</AssemblyName>
+    <RootNamespace>ReSharper.ExceptionalEnhanced</RootNamespace>
+    <AssemblyName>ReSharper.ExceptionalEnhanced</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <LangVersion>9.0</LangVersion>
     <FileAlignment>512</FileAlignment>
@@ -193,9 +193,15 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <MSBuildCommunityTasksPath>$(SolutionDir)\..\build\MSBuildTasks</MSBuildCommunityTasksPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <Import Project="$(MSBuildCommunityTasksPath)\MSBuild.Community.Tasks.Targets" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

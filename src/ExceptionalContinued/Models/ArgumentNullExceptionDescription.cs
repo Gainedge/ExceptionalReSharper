@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     /// <summary>
     /// Generates a description to use as the documentation of ArgumentNullException.

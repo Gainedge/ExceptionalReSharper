@@ -5,10 +5,10 @@ using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.Util;
-using ReSharper.ExceptionalContinued.Analyzers;
-using ReSharper.ExceptionalContinued.Utilities;
+using ReSharper.ExceptionalEnhanced.Analyzers;
+using ReSharper.ExceptionalEnhanced.Utilities;
 
-namespace ReSharper.ExceptionalContinued.Models.ExceptionsOrigins
+namespace ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins
 {
     internal class ThrowExpressionModel : TreeElementModelBase<IThrowExpression>,
                                           IExceptionsOriginModel

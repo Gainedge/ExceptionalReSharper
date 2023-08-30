@@ -4,10 +4,10 @@ using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.ReSharper.Psi.VB.Tree;
-using ReSharper.ExceptionalContinued.Analyzers;
-using ReSharper.ExceptionalContinued.Utilities;
+using ReSharper.ExceptionalEnhanced.Analyzers;
+using ReSharper.ExceptionalEnhanced.Utilities;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     using IBlock = JetBrains.ReSharper.Psi.CSharp.Tree.IBlock;
     using IThrowStatement = JetBrains.ReSharper.Psi.CSharp.Tree.IThrowStatement;

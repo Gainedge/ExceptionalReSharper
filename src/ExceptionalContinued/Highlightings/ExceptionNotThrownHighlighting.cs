@@ -1,8 +1,8 @@
 using JetBrains.ReSharper.Feature.Services.Daemon;
 using JetBrains.ReSharper.Psi.CSharp;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Highlightings
+namespace ReSharper.ExceptionalEnhanced.Highlightings
 {
     [RegisterConfigurableSeverity(
                                      Id,
@@ -34,7 +34,7 @@ namespace ReSharper.ExceptionalContinued.Highlightings
 
         /// <summary>Gets the message which is shown in the editor. </summary>
         protected override string Message =>
-            string.Format(Resources.HighlightNotThrownDocumentedExceptions, ExceptionDocumentation.ExceptionType.GetClrName().ShortName);
+            string.Format(Resources.HighlightNotThrownDocumentedExceptions, this.ExceptionTypeName);
 
         #endregion
     }

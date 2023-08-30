@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using ReSharper.ExceptionalContinued.Utilities;
+using ReSharper.ExceptionalEnhanced.Utilities;
 
 namespace ExceptionalTests
 {

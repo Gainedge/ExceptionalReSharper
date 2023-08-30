@@ -1,12 +1,12 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using JetBrains.ReSharper.Psi;
-using ReSharper.ExceptionalContinued.Highlightings;
-using ReSharper.ExceptionalContinued.Models;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
-using ReSharper.ExceptionalContinued.Settings;
+using ReSharper.ExceptionalEnhanced.Highlightings;
+using ReSharper.ExceptionalEnhanced.Models;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Settings;
 
-namespace ReSharper.ExceptionalContinued.Analyzers
+namespace ReSharper.ExceptionalEnhanced.Analyzers
 {
     /// <summary>Analyzes throw statements and checks that exceptions thrown outside are documented.</summary>
     internal sealed class IsThrownExceptionDocumentedAnalyzer : AnalyzerBase

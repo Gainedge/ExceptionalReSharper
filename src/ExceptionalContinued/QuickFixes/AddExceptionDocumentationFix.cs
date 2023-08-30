@@ -8,10 +8,10 @@ using JetBrains.ReSharper.Feature.Services.LiveTemplates.Templates;
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
 using JetBrains.ReSharper.Resources.Shell;
 using JetBrains.TextControl;
-using ReSharper.ExceptionalContinued.Highlightings;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Highlightings;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.QuickFixes
+namespace ReSharper.ExceptionalEnhanced.QuickFixes
 {
     //[QuickFix(null, BeforeOrAfter.Before)]
     [QuickFix]

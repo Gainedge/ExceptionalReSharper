@@ -1,6 +1,6 @@
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     internal sealed class AccessorDeclarationModel : BlockModelBase<IAccessorDeclaration>
     {

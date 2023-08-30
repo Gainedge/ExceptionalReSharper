@@ -1,6 +1,6 @@
 ﻿using JetBrains.ReSharper.Psi;
 
-namespace ReSharper.ExceptionalContinued.Settings
+namespace ReSharper.ExceptionalEnhanced.Settings
 {
     public sealed class OptionalExceptionConfiguration
     {

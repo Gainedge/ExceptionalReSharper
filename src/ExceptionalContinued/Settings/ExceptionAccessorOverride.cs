@@ -2,7 +2,7 @@ using System;
 using JetBrains.ReSharper.Psi;
 using JetBrains.Util.Logging;
 
-namespace ReSharper.ExceptionalContinued.Settings
+namespace ReSharper.ExceptionalEnhanced.Settings
 {
     public sealed class ExceptionAccessorOverride
     {

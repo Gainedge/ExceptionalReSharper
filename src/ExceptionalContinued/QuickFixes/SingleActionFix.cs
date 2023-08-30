@@ -1,7 +1,7 @@
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
 using JetBrains.Util;
 
-namespace ReSharper.ExceptionalContinued.QuickFixes
+namespace ReSharper.ExceptionalEnhanced.QuickFixes
 {
     /// <summary>Base class for all fixes that serves only one <see cref="QuickFixBase" />. </summary>
     internal abstract class SingleActionFix : QuickFixBase

@@ -1,4 +1,4 @@
-﻿namespace ReSharper.ExceptionalContinued
+﻿namespace ReSharper.ExceptionalEnhanced
 {
     public static class Constants
     {

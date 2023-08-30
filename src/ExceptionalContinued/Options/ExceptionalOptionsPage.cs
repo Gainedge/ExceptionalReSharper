@@ -1,7 +1,7 @@
 ﻿using JetBrains.Application.UI.Options;
 using JetBrains.Application.UI.Options.OptionsDialog;
 
-namespace ReSharper.ExceptionalContinued.Options
+namespace ReSharper.ExceptionalEnhanced.Options
 {
     [OptionsPage(Pid, Name, null, Sequence = 5.0)]
     public class ExceptionalOptionsPage : AEmptyOptionsPage

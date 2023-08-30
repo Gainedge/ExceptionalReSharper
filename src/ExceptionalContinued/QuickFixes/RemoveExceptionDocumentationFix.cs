@@ -3,9 +3,9 @@ using JetBrains.Application.Progress;
 using JetBrains.ProjectModel;
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
 using JetBrains.TextControl;
-using ReSharper.ExceptionalContinued.Highlightings;
+using ReSharper.ExceptionalEnhanced.Highlightings;
 
-namespace ReSharper.ExceptionalContinued.QuickFixes
+namespace ReSharper.ExceptionalEnhanced.QuickFixes
 {
     [QuickFix]
     internal class RemoveExceptionDocumentationFix : SingleActionFix

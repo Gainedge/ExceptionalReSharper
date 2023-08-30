@@ -1,8 +1,8 @@
 using JetBrains.ReSharper.Feature.Services.Daemon;
 using JetBrains.ReSharper.Psi.CSharp;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Highlightings
+namespace ReSharper.ExceptionalEnhanced.Highlightings
 {
     [RegisterConfigurableSeverity(
                                      Id,
@@ -20,6 +20,14 @@ namespace ReSharper.ExceptionalContinued.Highlightings
 
         #endregion
 
+        public string ExceptionTypeName {
+          get {
+            var exceptionType = ThrownException.ExceptionType;
+            var exceptionTypeName = exceptionType != null ? exceptionType.GetClrName().ShortName : "[NOT RESOLVED]";
+            return exceptionTypeName;
+          }
+        }
+
         #region constructors and destructors
 
         /// <summary>Initializes a new instance of the <see cref="ExceptionNotDocumentedOptionalHighlighting" /> class. </summary>
@@ -34,15 +42,7 @@ namespace ReSharper.ExceptionalContinued.Highlightings
         #region properties
 
         /// <summary>Gets the message which is shown in the editor. </summary>
-        protected override string Message
-        {
-            get
-            {
-                var exceptionType = ThrownException.ExceptionType;
-                var exceptionTypeName = exceptionType != null ? exceptionType.GetClrName().ShortName : "[NOT RESOLVED]";
-                return Constants.OptionalPrefix + string.Format(Resources.HighlightNotDocumentedExceptions, exceptionTypeName);
-            }
-        }
+        protected override string Message => Constants.OptionalPrefix + string.Format(Resources.HighlightNotDocumentedExceptions, this.ExceptionTypeName);
 
         /// <summary>Gets the thrown exception. </summary>
         internal ThrownExceptionModel ThrownException { get; }

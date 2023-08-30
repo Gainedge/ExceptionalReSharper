@@ -1,6 +1,6 @@
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Contexts
+namespace ReSharper.ExceptionalEnhanced.Contexts
 {
     internal sealed class MethodProcessContext : ProcessContext<MethodDeclarationModel>
     {

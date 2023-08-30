@@ -2,7 +2,7 @@ using JetBrains.DocumentModel;
 using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.Tree;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     internal abstract class TreeElementModelBase<T> : ModelBase
         where T : ITreeNode

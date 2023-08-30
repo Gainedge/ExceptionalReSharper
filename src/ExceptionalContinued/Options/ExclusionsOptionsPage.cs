@@ -6,9 +6,9 @@ using JetBrains.IDE.UI.Extensions;
 using JetBrains.IDE.UI.Options;
 using JetBrains.Lifetimes;
 using JetBrains.Rd.Base;
-using ReSharper.ExceptionalContinued.Settings;
+using ReSharper.ExceptionalEnhanced.Settings;
 
-namespace ReSharper.ExceptionalContinued.Options
+namespace ReSharper.ExceptionalEnhanced.Options
 {
     //[OptionsPage(Pid, Name, typeof(UnnamedThemedIcons.ExceptionalSettings), ParentId = ExceptionalOptionsPage.Pid,
     //             Sequence = 7.0)]

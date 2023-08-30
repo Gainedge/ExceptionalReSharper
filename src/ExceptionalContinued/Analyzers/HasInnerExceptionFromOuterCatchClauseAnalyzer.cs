@@ -1,7 +1,7 @@
-using ReSharper.ExceptionalContinued.Highlightings;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Highlightings;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
 
-namespace ReSharper.ExceptionalContinued.Analyzers
+namespace ReSharper.ExceptionalEnhanced.Analyzers
 {
     /// <summary>Analyzes throw statements and checks if the contain inner exception when thrown from inside a catch clause.</summary>
     internal sealed class HasInnerExceptionFromOuterCatchClauseAnalyzer : AnalyzerBase

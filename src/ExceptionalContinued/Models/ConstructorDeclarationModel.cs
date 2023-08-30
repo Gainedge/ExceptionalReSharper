@@ -1,9 +1,9 @@
 using System.Linq;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Util;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     /// <summary>Stores data about processed <see cref="IConstructorDeclaration" /></summary>
     internal sealed class ConstructorDeclarationModel : AnalyzeUnitModelBase<IConstructorDeclaration>

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     internal interface IBlockModel
     {

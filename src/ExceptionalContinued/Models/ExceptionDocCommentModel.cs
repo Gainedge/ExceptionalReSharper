@@ -3,9 +3,9 @@ using JetBrains.DocumentModel;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.Util;
-using ReSharper.ExceptionalContinued.Analyzers;
+using ReSharper.ExceptionalEnhanced.Analyzers;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     internal class ExceptionDocCommentModel : ModelBase
     {

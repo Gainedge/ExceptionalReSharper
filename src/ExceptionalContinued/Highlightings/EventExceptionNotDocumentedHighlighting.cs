@@ -1,8 +1,8 @@
 using JetBrains.ReSharper.Feature.Services.Daemon;
 using JetBrains.ReSharper.Psi.CSharp;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Highlightings
+namespace ReSharper.ExceptionalEnhanced.Highlightings
 {
     [RegisterConfigurableSeverity(
                                      Id,

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
-using ReSharper.ExceptionalContinued.Analyzers;
+using ReSharper.ExceptionalEnhanced.Analyzers;
 
-namespace ReSharper.ExceptionalContinued.Models.ExceptionsOrigins
+namespace ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins
 {
     internal sealed class ObjectCreationExpressionModel : ExpressionExceptionsOriginModelBase<IObjectCreationExpression>
     {

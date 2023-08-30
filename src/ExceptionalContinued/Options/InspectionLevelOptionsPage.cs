@@ -4,9 +4,9 @@ using JetBrains.Application.UI.Options.OptionsDialog;
 using JetBrains.DataFlow;
 using JetBrains.IDE.UI.Options;
 using JetBrains.Lifetimes;
-using ReSharper.ExceptionalContinued.Settings;
+using ReSharper.ExceptionalEnhanced.Settings;
 
-namespace ReSharper.ExceptionalContinued.Options
+namespace ReSharper.ExceptionalEnhanced.Options
 {
     [OptionsPage(Pid, Name, typeof(UnnamedThemedIcons.ExceptionalSettings), ParentId = ExceptionalOptionsPage.Pid, Sequence = 1.0)]
     public class InspectionLevelOptionsPage : BeSimpleOptionsPage

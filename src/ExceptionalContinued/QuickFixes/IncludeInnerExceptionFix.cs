@@ -4,10 +4,10 @@ using JetBrains.ProjectModel;
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.TextControl;
-using ReSharper.ExceptionalContinued.Highlightings;
-using ReSharper.ExceptionalContinued.Utilities;
+using ReSharper.ExceptionalEnhanced.Highlightings;
+using ReSharper.ExceptionalEnhanced.Utilities;
 
-namespace ReSharper.ExceptionalContinued.QuickFixes
+namespace ReSharper.ExceptionalEnhanced.QuickFixes
 {
     [QuickFix]
     internal class IncludeInnerExceptionFix : SingleActionFix

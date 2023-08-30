@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package>
   <metadata>
-    <id>ExceptionalDevs.ExceptionalContinued</id>
-    <version>2022.2.1.4-Debug</version>
-    <title>Exceptional Continued</title>
-    <description>Analyzes thrown and documented C# exceptions and suggests improvements.</description>
-    <authors>Exceptional Devs, Robert Weinmeister</authors>
-    <projectUrl>https://github.com/RobertWeinmeister/ExceptionalReSharper</projectUrl>
+    <id>Gainedge.ExceptionalEnhanced</id>
+    <version>2023.8.29.6-pre</version>
+    <title>Exceptional Enhanced</title>
+    <description>Analyzes thrown and documented C# exceptions and suggests improvements. Designed to work with GammaJul.Resharper.EnhancedTooltip extension.</description>
+    <authors>Exceptional Devs, Robert Weinmeister, Gainedge org</authors>
+    <projectUrl>https://github.com/Gainedge/ExceptionalReSharper</projectUrl>
     <copyright></copyright>
     <tags>Exception XMLdoc</tags>
-    <licenseUrl>https://github.com/RobertWeinmeister/ExceptionalReSharper/blob/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/Gainedge/ExceptionalReSharper/blob/master/LICENSE.md</licenseUrl>
 	<releaseNotes>
       Some update description
 	</releaseNotes>
    <dependencies>
-      <dependency id="Wave" version="[222]" />
+      <dependency id="Wave" version="[232]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\lib\ReSharper.Exceptional.dll" target="DotFiles" />
-    <file src="..\build\lib\ReSharper.Exceptional.pdb" target="DotFiles" />
+    <file src="..\build\lib\ReSharper.ExceptionalEnhanced.dll" target="DotFiles" />
+    <file src="..\build\lib\ReSharper.ExceptionalEnhanced.pdb" target="DotFiles" />
   </files>
 </package>

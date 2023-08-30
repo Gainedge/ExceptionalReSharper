@@ -1,4 +1,4 @@
-﻿namespace ReSharper.ExceptionalContinued.Utilities
+﻿namespace ReSharper.ExceptionalEnhanced.Utilities
 {
     public static class NamespaceChecker
     {

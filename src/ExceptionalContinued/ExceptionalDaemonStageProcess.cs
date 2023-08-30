@@ -7,7 +7,7 @@ using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 
-namespace ReSharper.ExceptionalContinued
+namespace ReSharper.ExceptionalEnhanced
 {
     /// <summary>This process is executed by the ReSharper's Daemon</summary>
     /// <remarks>

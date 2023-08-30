@@ -1,8 +1,8 @@
 using System;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Contexts
+namespace ReSharper.ExceptionalEnhanced.Contexts
 {
     internal sealed class AccessorOwnerProcessContext : ProcessContext<AccessorOwnerDeclarationModel>
     {

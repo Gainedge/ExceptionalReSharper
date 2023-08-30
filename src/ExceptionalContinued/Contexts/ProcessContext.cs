@@ -2,11 +2,11 @@ using System.Collections.Generic;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.Util.Logging;
-using ReSharper.ExceptionalContinued.Analyzers;
-using ReSharper.ExceptionalContinued.Models;
-using ReSharper.ExceptionalContinued.Models.ExceptionsOrigins;
+using ReSharper.ExceptionalEnhanced.Analyzers;
+using ReSharper.ExceptionalEnhanced.Models;
+using ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins;
 
-namespace ReSharper.ExceptionalContinued.Contexts
+namespace ReSharper.ExceptionalEnhanced.Contexts
 {
     internal abstract class ProcessContext<T> : IProcessContext
         where T : IAnalyzeUnit

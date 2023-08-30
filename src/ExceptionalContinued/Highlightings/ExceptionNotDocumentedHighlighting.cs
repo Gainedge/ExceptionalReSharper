@@ -1,8 +1,8 @@
 using JetBrains.ReSharper.Feature.Services.Daemon;
 using JetBrains.ReSharper.Psi.CSharp;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Highlightings
+namespace ReSharper.ExceptionalEnhanced.Highlightings
 {
     [RegisterConfigurableSeverity(
                                      Id,
@@ -33,15 +33,7 @@ namespace ReSharper.ExceptionalContinued.Highlightings
         #region properties
 
         /// <summary>Gets the message which is shown in the editor. </summary>
-        protected override string Message
-        {
-            get
-            {
-                var exceptionType = ThrownException.ExceptionType;
-                var exceptionTypeName = exceptionType != null ? exceptionType.GetClrName().ShortName : "[NOT RESOLVED]";
-                return string.Format(Resources.HighlightNotDocumentedExceptions, exceptionTypeName);
-            }
-        }
+        protected override string Message => string.Format(Resources.HighlightNotDocumentedExceptions, this.ExceptionTypeName);
 
         #endregion
     }

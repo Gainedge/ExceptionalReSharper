@@ -1,8 +1,8 @@
 using JetBrains.ReSharper.Feature.Services.Daemon;
 using JetBrains.ReSharper.Psi.CSharp;
-using ReSharper.ExceptionalContinued.Models;
+using ReSharper.ExceptionalEnhanced.Models;
 
-namespace ReSharper.ExceptionalContinued.Highlightings
+namespace ReSharper.ExceptionalEnhanced.Highlightings
 {
     [RegisterConfigurableSeverity(
                                      Id,
@@ -19,6 +19,8 @@ namespace ReSharper.ExceptionalContinued.Highlightings
         public const string Id = "ExceptionNotThrownOptional";
 
         #endregion
+
+        public string ExceptionTypeName => ExceptionDocumentation.ExceptionType.GetClrName().ShortName;
 
         #region constructors and destructors
 
@@ -37,7 +39,7 @@ namespace ReSharper.ExceptionalContinued.Highlightings
         protected override string Message =>
             Constants.OptionalPrefix + string.Format(
                 Resources.HighlightNotThrownDocumentedExceptions,
-                ExceptionDocumentation.ExceptionType.GetClrName().ShortName);
+                this.ExceptionTypeName);
 
         /// <summary>Gets the exception documentation. </summary>
         internal ExceptionDocCommentModel ExceptionDocumentation { get; }

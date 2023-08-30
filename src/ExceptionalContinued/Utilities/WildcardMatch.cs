@@ -31,7 +31,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ReSharper.ExceptionalContinued.Utilities
+namespace ReSharper.ExceptionalEnhanced.Utilities
 {
     public static class WildcardMatch
     {

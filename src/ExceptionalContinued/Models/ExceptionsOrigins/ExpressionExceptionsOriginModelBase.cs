@@ -4,9 +4,9 @@ using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.ExtensionsAPI;
 using JetBrains.ReSharper.Psi.Tree;
-using ReSharper.ExceptionalContinued.Utilities;
+using ReSharper.ExceptionalEnhanced.Utilities;
 
-namespace ReSharper.ExceptionalContinued.Models.ExceptionsOrigins
+namespace ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins
 {
     internal abstract class ExpressionExceptionsOriginModelBase<T> : TreeElementModelBase<T>,
                                                                      IExceptionsOriginModel

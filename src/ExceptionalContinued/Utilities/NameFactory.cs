@@ -6,7 +6,7 @@ using JetBrains.ReSharper.Psi.Naming.Extentions;
 using JetBrains.ReSharper.Psi.Naming.Impl;
 using JetBrains.ReSharper.Psi.Tree;
 
-namespace ReSharper.ExceptionalContinued.Utilities
+namespace ReSharper.ExceptionalEnhanced.Utilities
 {
     /// <summary>Aids in creating names for code elements.</summary>
     public static class NameFactory

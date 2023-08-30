@@ -1,4 +1,4 @@
-﻿namespace ReSharper.ExceptionalContinued.Settings
+﻿namespace ReSharper.ExceptionalEnhanced.Settings
 {
     public enum OptionalExceptionReplacementType
     {

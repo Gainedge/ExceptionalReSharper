@@ -7,9 +7,9 @@ using JetBrains.ReSharper.Feature.Services.Navigation;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
-using ReSharper.ExceptionalContinued.Settings;
+using ReSharper.ExceptionalEnhanced.Settings;
 
-namespace ReSharper.ExceptionalContinued
+namespace ReSharper.ExceptionalEnhanced
 {
     [ZoneMarker]
     public class ZoneMarker : IPsiLanguageZone,

@@ -1,4 +1,4 @@
-namespace ReSharper.ExceptionalContinued.QuickFixes
+namespace ReSharper.ExceptionalEnhanced.QuickFixes
 {
     // TODO: Implement AddToOptionalMethodExceptionsFix
 

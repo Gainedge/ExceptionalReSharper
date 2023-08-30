@@ -8,7 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ReSharper.ExceptionalContinued {
+namespace ReSharper.ExceptionalEnhanced {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -36,7 +39,7 @@ namespace ReSharper.ExceptionalContinued {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ReSharper.ExceptionalContinued.DefaultResource", typeof(DefaultResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ReSharper.ExceptionalEnhanced.DefaultResource", typeof(DefaultResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

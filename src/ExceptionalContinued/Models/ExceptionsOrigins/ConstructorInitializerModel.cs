@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
-using ReSharper.ExceptionalContinued.Analyzers;
+using ReSharper.ExceptionalEnhanced.Analyzers;
 
-namespace ReSharper.ExceptionalContinued.Models.ExceptionsOrigins
+namespace ReSharper.ExceptionalEnhanced.Models.ExceptionsOrigins
 {
     internal sealed class ConstructorInitializerModel : TreeElementModelBase<ITreeNode>,
                                                         IExceptionsOriginModel

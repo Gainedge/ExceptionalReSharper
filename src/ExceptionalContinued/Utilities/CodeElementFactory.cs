@@ -4,7 +4,7 @@ using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
 
-namespace ReSharper.ExceptionalContinued.Utilities
+namespace ReSharper.ExceptionalEnhanced.Utilities
 {
     /// <summary>Provides services to create various code elements.</summary>
     public sealed class CodeElementFactory

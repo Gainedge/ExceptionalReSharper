@@ -1,6 +1,6 @@
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 
-namespace ReSharper.ExceptionalContinued.Models
+namespace ReSharper.ExceptionalEnhanced.Models
 {
     /// <summary>Stores data about processed <see cref="IMethodDeclaration" /></summary>
     internal sealed class MethodDeclarationModel : AnalyzeUnitModelBase<IMethodDeclaration>

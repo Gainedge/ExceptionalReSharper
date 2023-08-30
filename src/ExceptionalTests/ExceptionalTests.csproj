@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExceptionalContinued\ExceptionalContinued.csproj" />
+    <ProjectReference Include="..\ExceptionalContinued\ExceptionalEnhanced.csproj" />
   </ItemGroup>
 
 </Project>
